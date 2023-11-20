@@ -1,4 +1,5 @@
 // source: https://github.com/futureshocked/TE-Arduino-SbS-Getting-Serious/blob/master/_1218b_-_Bluetooth_connectivity_with_the_HC-06_module/_1218b_-_Bluetooth_connectivity_with_the_HC-06_module.ino
+// hc 05 vs hc 06: https://robocraze.com/blogs/post/hc-05-vs-hc-06-vs-wf-05-bluetooth-modules
 
 /*  1218b - Bluetooth connection demo with the HC-06
  * 
