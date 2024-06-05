@@ -1,0 +1,3 @@
+- `Dockerfile` (erased .txt): contains dependencies
+- `build.sh`: builds docker container
+- `run.sh`: run program in the container
