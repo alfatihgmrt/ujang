@@ -26,8 +26,8 @@ WORKDIR yolov5
 RUN python3.8 -m pip install -r requirements.txt
 
 # Clone the alfatih repository and copy detect2.py into yolov5 directory
-RUN git clone https://github.com/trinadia/alfatih_copy.git && \
-    cp alfatih_copy/detect_display.py .
+RUN git clone https://github.com/trinadiak/ujang.git && \
+    cp ujang/yolo/detect_display.py .
 
 COPY is_docker.patch .
 RUN patch -p1 < is_docker.patch
