@@ -1,1 +1,2 @@
 - `detect_final_12.py` : object detection (no display)
+- `best_new_640.pt` : best weight (640x640)
