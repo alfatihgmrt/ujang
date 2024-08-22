@@ -1,9 +1,13 @@
 [Unit]
 Description=Startup Script
+After=xvfb.service
 
 [Service]
 Type=simple
-ExecStart=/bin/bash -c 'source /home/alfatih/envstart/bin/activate && /usr/bin/python3 /home/alfatih/loop_test_serial.py'
+ExecStartPre=/bin/sleep 2
+WorkingDirectory=/home/alfatih/docker-yolov5
+Environment=DISPLAY=:1
+ExecStart=/bin/bash -c '/home/alfatih/docker-yolov5/run.sh'
 Restart=always
 
 [Install]
