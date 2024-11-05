@@ -259,22 +259,23 @@ def run(
 
                             #ser.close()
                     #---- END OF KIRIM DATA SERIAL---------
-                        except Exception as e:
-                            print("Error:", str(e))
+                        #except Exception as e:
+                            #print("Error:", str(e))
 
-                        time.sleep(1)
+                        #time.sleep(1)
                     else:
-                        try:
+                        #try:
                             #ser.write(str(1).encode())
-                            ser.write(f'{1}\n'.encode('utf-8'))
-                            print("serial sent: 1 (none)")
+                            #ser.write(f'{1}\n'.encode('utf-8'))
+                            #print("serial sent: 1 (none)")
+                        print("none")
                             
-                            time.sleep(0.2)
+                            #time.sleep(0.2)
 
-                            ser.close()
+                            #ser.close()
 
-                        except Exception as e:
-                            print("Error:", str(e))
+                        #except Exception as e:
+                            #print("Error:", str(e))
 
                         
                     # Object 1: Class 0, Confidence: 0.19391992688179016, Coordinates: (2, 0), (146, 480)
